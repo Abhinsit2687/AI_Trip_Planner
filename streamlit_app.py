@@ -7,7 +7,7 @@ BASE_URL = "http://localhost:8000" # Backend endpoints
 
 
 st.set_page_config(
-    page_title= "🌍Tavel Planner Agentic Application",
+    page_title= "Tavel Planner Agentic Application",
     page_icon = "🌍",
     layout="centered",
     initial_sidebar_state="expanded",
