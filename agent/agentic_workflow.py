@@ -29,7 +29,7 @@ class GraphicBuilder():
         self.system_prompt = SYSTEM_PROMPT
 
 
-    def agent_function(self):
+    def agent_function(self, state: MessagesState):
         """ Main agent function """
 
         user_question  = state["message"]
@@ -53,4 +53,4 @@ class GraphicBuilder():
 
 
     def __call__(self):
-        pass
+        return self.build_graph()
